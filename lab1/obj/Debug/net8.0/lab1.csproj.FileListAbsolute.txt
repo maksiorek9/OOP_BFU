@@ -1,0 +1,14 @@
+C:\Users\Пользователь\oop\lab1\lab1\bin\Debug\net8.0\lab1.exe
+C:\Users\Пользователь\oop\lab1\lab1\bin\Debug\net8.0\lab1.deps.json
+C:\Users\Пользователь\oop\lab1\lab1\bin\Debug\net8.0\lab1.runtimeconfig.json
+C:\Users\Пользователь\oop\lab1\lab1\bin\Debug\net8.0\lab1.dll
+C:\Users\Пользователь\oop\lab1\lab1\bin\Debug\net8.0\lab1.pdb
+C:\Users\Пользователь\oop\lab1\lab1\obj\Debug\net8.0\lab1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Пользователь\oop\lab1\lab1\obj\Debug\net8.0\lab1.AssemblyInfoInputs.cache
+C:\Users\Пользователь\oop\lab1\lab1\obj\Debug\net8.0\lab1.AssemblyInfo.cs
+C:\Users\Пользователь\oop\lab1\lab1\obj\Debug\net8.0\lab1.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\oop\lab1\lab1\obj\Debug\net8.0\lab1.dll
+C:\Users\Пользователь\oop\lab1\lab1\obj\Debug\net8.0\refint\lab1.dll
+C:\Users\Пользователь\oop\lab1\lab1\obj\Debug\net8.0\lab1.pdb
+C:\Users\Пользователь\oop\lab1\lab1\obj\Debug\net8.0\lab1.genruntimeconfig.cache
+C:\Users\Пользователь\oop\lab1\lab1\obj\Debug\net8.0\ref\lab1.dll
