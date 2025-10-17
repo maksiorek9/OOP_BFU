@@ -26,11 +26,35 @@ internal class Program
 {
     public static void Main(string[] args)
     {
-        var ang = new Angel(degrees:40);
+        var ang1 = new Angel(degrees:40);
+        var ang2 = new Angel(radian:0.5f);
+        var ang3 = new Angel(degrees:170);
+        var ang4 = new Angel(radian:0.9f);
+
+        Console.WriteLine(ang1.comparison(ang1, ang2,"[]",3));
+        Console.WriteLine(ang2>ang1);
+        Console.WriteLine($"{ang1.str_angel} {ang1.str_angel.GetType()} /n {ang1.int_angel} {ang1.int_angel.GetType()} /n" +
+                          $"{ang1.radian} {ang1.radian.GetType()}");
+        Console.WriteLine($"+ {ang1 + ang2}");
+        Console.WriteLine($"- {ang1 - ang2}");
+        Console.WriteLine($"/ {ang1 / ang2}");
+        Console.WriteLine($"* {ang1 * ang2}");
         
         
-        
-        Console.WriteLine("ang.degrees = " + ang.str_angel.GetType());
-        Console.WriteLine(ang.radian);
+        Console.WriteLine("--------------");
+        AngelRange firs = new(ang1, ang2 , "[]");
+        AngelRange second = new(ang3, ang4 , "()");
+    
+        if(firs.Equals(second))     
+            Console.WriteLine("equal");
+        else
+            Console.WriteLine("not equal");
+        Console.WriteLine(firs.str_angel);
+        Console.WriteLine(firs.leght);
+        Console.WriteLine(firs<second);
+        if(firs.IN(firs, second))
+            Console.WriteLine("first in second");
+        Console.WriteLine($"+ {firs + second}");
+        Console.WriteLine($"- {firs - second}");
     }
 }

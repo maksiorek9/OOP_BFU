@@ -44,11 +44,7 @@ public class Angel
 
         }
     }
-
-    public Angel()
-    {
-
-    }
+    
 
     public string str_angel = "";
 
@@ -66,7 +62,16 @@ public class Angel
     {
         return a.radian < b.radian;
     }
+    
+    public static bool operator >=(Angel a, Angel b)
+    {
+        return a.radian >= b.radian;
+    }
 
+    public static bool operator <=(Angel a, Angel b)
+    {
+        return a.radian <= b.radian;
+    }
     public bool comparison(Angel angel, Angel otherAngel,string ctr, int? N = null) // изначально хотелось перегрузить <
     {
         if (N != null)
@@ -99,6 +104,22 @@ public class Angel
     public static float operator /(Angel angel, float scalar)
     {
         return angel.radian / scalar;
+    }
+    public static float operator +(Angel angel, Angel scalar)
+    {
+        return angel.radian + scalar.radian;
+    }
+    public static float operator -(Angel angel, Angel scalar)
+    {
+        return angel.radian - scalar.radian;
+    }
+    public static float operator *(Angel angel, Angel scalar)
+    {
+        return angel.radian * scalar.radian;
+    }
+    public static float operator /(Angel angel, Angel scalar)
+    {
+        return angel.radian / scalar.radian;
     }
 
 
