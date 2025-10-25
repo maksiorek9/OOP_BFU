@@ -18,7 +18,7 @@ public class AngelRange
     public string str_angel = "";
     public AngelRange(Angel start, Angel end, string IN ="")
     {
-        str_angel = $"{start}; {end}";
+        str_angel = $"{start.radian}; {end.radian}";
         if (IN == "[]")
         {
             angels[0] = new Angel(start.radian + 1);
