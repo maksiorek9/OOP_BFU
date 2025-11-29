@@ -1,4 +1,5 @@
 using System.Globalization;
+using System.Linq.Expressions;
 
 namespace lab1;
 /*
@@ -14,72 +15,73 @@ namespace lab1;
  */
 public class Angel
 {
-    public float radian { get; set; }
-    public float degrees { get; set; }
+    private float Radian { get; set; }
+    private float Degrees { get; set; }
     
     
     
 
-    private const float pi = 3.141529f;
+    private const float Pi = 3.141529f;
 
-    public Angel(float radian = 0, float degrees = 0)
+    public Angel(float nomber , string radian )
     {
 
-        if (degrees > 0)
+        
+        
+
+        if (nomber > 0)
         {
-            this.degrees = degrees;
-            this.radian = (degrees * pi) / 180.0f;
-           
-            int_angel = (int)this.radian;
-            str_angel =  Convert.ToString(this.radian, CultureInfo.InvariantCulture);
+            this.Degrees = (180.0f * nomber) / Pi;
+            this.Radian = nomber;
             return;
         }
+        else
+            throw new ArgumentException("неправильно заданы радианы");
+    }
+    public Angel(float nomber  )
+    {
 
-        if (radian > 0)
+        if (nomber > 0)
         {
-            this.degrees = (180.0f * radian) / pi;
-            this.radian = radian;
-            int_angel = (int)this.radian;
-            str_angel =  Convert.ToString(this.radian, CultureInfo.InvariantCulture);
-
+            this.Degrees = nomber;
+            this.Radian = (nomber * Pi) / 180.0f;
+            return;
         }
+        throw new ArgumentException("неверный значение градусов");
     }
     
 
-    public string str_angel = "";
-
-
-    public int int_angel = 0;
+    
     
     
 
     public static bool operator >(Angel a, Angel b)
     {
-        return a.radian > b.radian;
+        return a.Radian > b.Radian;
     }
 
     public static bool operator <(Angel a, Angel b)
     {
-        return a.radian < b.radian;
+        return a.Radian < b.Radian;
     }
     
     public static bool operator >=(Angel a, Angel b)
     {
-        return a.radian >= b.radian;
+        return a.Radian >= b.Radian;
     }
 
     public static bool operator <=(Angel a, Angel b)
     {
-        return a.radian <= b.radian;
+        return a.Radian <= b.Radian;
     }
     public bool comparison(Angel angel, Angel otherAngel,string ctr, int? N = null) // изначально хотелось перегрузить <
     {
-        if (N != null)
+        if (N is not null)
         {
-            float? first = angel.radian * N * pi;
-            float? second = otherAngel.radian * N * pi;
+            float? first = angel.Radian * N * Pi;
+            float? second = otherAngel.Radian * N * Pi;
             
-            if (ctr == "<")
+            if (ctr.Equals("<")) 
                 return first < second;
             else
                 return first > second;
@@ -91,36 +93,45 @@ public class Angel
 
     public static float operator +(Angel angel, float scalar)
     {
-        return angel.radian + scalar;
+        return angel.Radian + scalar;
     }
     public static float operator -(Angel angel, float scalar)
     {
-        return angel.radian - scalar;
+        return angel.Radian - scalar;
     }
     public static float operator *(Angel angel, float scalar)
     {
-        return angel.radian * scalar;
+        return angel.Radian * scalar;
     }
     public static float operator /(Angel angel, float scalar)
     {
-        return angel.radian / scalar;
+        return angel.Radian / scalar;
     }
     public static float operator +(Angel angel, Angel scalar)
     {
-        return angel.radian + scalar.radian;
+        return angel.Radian + scalar.Radian;
     }
     public static float operator -(Angel angel, Angel scalar)
     {
-        return angel.radian - scalar.radian;
+        return angel.Radian - scalar.Radian;
     }
     public static float operator *(Angel angel, Angel scalar)
     {
-        return angel.radian * scalar.radian;
+        return angel.Radian * scalar.Radian;
     }
     public static float operator /(Angel angel, Angel scalar)
     {
-        return angel.radian / scalar.radian;
+        return angel.Radian / scalar.Radian;
     }
 
+    public static string Tostring(Angel angel)
+    {
+        return angel.Radian.ToString();
+    }
+
+    public static float Parse(Angel angel)
+    {
+        return angel.Degrees;
+    }
 
 }

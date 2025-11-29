@@ -1,0 +1,207 @@
+CHAR:A
+HEIGHT:5
+  *  
+ * * 
+*****
+*   *
+*   *
+
+CHAR:B
+HEIGHT:5
+**** 
+*   *
+**** 
+*   *
+**** 
+
+CHAR:C
+HEIGHT:5
+ ****
+*    
+*    
+*    
+ ****
+
+CHAR:D
+HEIGHT:5
+**** 
+*   *
+*   *
+*   *
+**** 
+
+CHAR:E
+HEIGHT:5
+*****
+*    
+*****
+*    
+*****
+
+CHAR:F
+HEIGHT:5
+*****
+*    
+*****
+*    
+*    
+
+CHAR:G
+HEIGHT:5
+ ****
+*    
+*  **
+*   *
+ ****
+
+CHAR:H
+HEIGHT:5
+*   *
+*   *
+*****
+*   *
+*   *
+
+CHAR:I
+HEIGHT:5
+*****
+  *  
+  *  
+  *  
+*****
+
+CHAR:J
+HEIGHT:5
+ ****
+   * 
+   * 
+*  * 
+ **  
+
+CHAR:K
+HEIGHT:5
+*   *
+*  * 
+***  
+*  * 
+*   *
+
+CHAR:L
+HEIGHT:5
+*    
+*    
+*    
+*    
+*****
+
+CHAR:M
+HEIGHT:5
+*   *
+** **
+* * *
+*   *
+*   *
+
+CHAR:N
+HEIGHT:5
+*   *
+**  *
+* * *
+*  **
+*   *
+
+CHAR:O
+HEIGHT:5
+ *** 
+*   *
+*   *
+*   *
+ *** 
+
+CHAR:P
+HEIGHT:5
+**** 
+*   *
+**** 
+*    
+*    
+
+CHAR:Q
+HEIGHT:5
+ *** 
+*   *
+*   *
+*  * 
+ ** *
+
+CHAR:R
+HEIGHT:5
+**** 
+*   *
+**** 
+*  * 
+*   *
+
+CHAR:S
+HEIGHT:5
+ ****
+*    
+ *** 
+    *
+**** 
+
+CHAR:T
+HEIGHT:5
+*****
+  *  
+  *  
+  *  
+  *  
+
+CHAR:U
+HEIGHT:5
+*   *
+*   *
+*   *
+*   *
+ *** 
+
+CHAR:V
+HEIGHT:5
+*   *
+*   *
+*   *
+ * * 
+  *  
+
+CHAR:W
+HEIGHT:5
+*   *
+*   *
+* * *
+** **
+*   *
+
+CHAR:X
+HEIGHT:5
+*   *
+ * * 
+  *  
+ * * 
+*   *
+
+CHAR:Y
+HEIGHT:5
+*   *
+ * * 
+  *  
+  *  
+  *  
+
+CHAR:Z
+HEIGHT:5
+*****
+   * 
+  *  
+ * * 
+*****

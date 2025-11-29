@@ -1,0 +1,15 @@
+/home/maksiorek9/RiderProjects/OOP_BFU/lab2/lab2/bin/Debug/net8.0/lab2
+/home/maksiorek9/RiderProjects/OOP_BFU/lab2/lab2/bin/Debug/net8.0/lab2.deps.json
+/home/maksiorek9/RiderProjects/OOP_BFU/lab2/lab2/bin/Debug/net8.0/lab2.runtimeconfig.json
+/home/maksiorek9/RiderProjects/OOP_BFU/lab2/lab2/bin/Debug/net8.0/lab2.dll
+/home/maksiorek9/RiderProjects/OOP_BFU/lab2/lab2/bin/Debug/net8.0/lab2.pdb
+/home/maksiorek9/RiderProjects/OOP_BFU/lab2/lab2/obj/Debug/net8.0/lab2.GeneratedMSBuildEditorConfig.editorconfig
+/home/maksiorek9/RiderProjects/OOP_BFU/lab2/lab2/obj/Debug/net8.0/lab2.AssemblyInfoInputs.cache
+/home/maksiorek9/RiderProjects/OOP_BFU/lab2/lab2/obj/Debug/net8.0/lab2.AssemblyInfo.cs
+/home/maksiorek9/RiderProjects/OOP_BFU/lab2/lab2/obj/Debug/net8.0/lab2.csproj.CoreCompileInputs.cache
+/home/maksiorek9/RiderProjects/OOP_BFU/lab2/lab2/obj/Debug/net8.0/lab2.sourcelink.json
+/home/maksiorek9/RiderProjects/OOP_BFU/lab2/lab2/obj/Debug/net8.0/lab2.dll
+/home/maksiorek9/RiderProjects/OOP_BFU/lab2/lab2/obj/Debug/net8.0/refint/lab2.dll
+/home/maksiorek9/RiderProjects/OOP_BFU/lab2/lab2/obj/Debug/net8.0/lab2.pdb
+/home/maksiorek9/RiderProjects/OOP_BFU/lab2/lab2/obj/Debug/net8.0/lab2.genruntimeconfig.cache
+/home/maksiorek9/RiderProjects/OOP_BFU/lab2/lab2/obj/Debug/net8.0/ref/lab2.dll
